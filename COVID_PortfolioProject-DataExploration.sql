@@ -61,6 +61,8 @@ order by TotalDeathCount desc
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 --Break by continent
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 -- Showing contintents with the highest death count per population
 
 SELECT continent,MAX(CAST(Total_deaths as int)) as TotalDeathCount
